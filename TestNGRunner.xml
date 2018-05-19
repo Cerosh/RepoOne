@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name ="TestNGTrail Test Report" verbose="9" thread-count="2"  parallel="tests">
+<test name = "Search validation- Chrome 1">
+<parameter name ="browser" value ="chrome"/>
+<classes>
+      <class name="Framework.Automation.Test.SearchTest"/>
+    </classes>
+</test>
+</suite>
+
+
